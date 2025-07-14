@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Soul Serenade – Delhi NCR</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Open+Sans&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --brand:#0e3e57;
+    --soft:#e7f4fb;
+    --grad1:#d8f3ff;
+    --grad2:#ffffff;
+    --text:#18587a;
+    --sub:#444;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:'Open Sans',sans-serif;
+    background:linear-gradient(to bottom,var(--grad1),var(--grad2));
+    color:var(--text);
+    scroll-behavior:smooth;
+  }
+  /* ─ header ─ */
+  header{
+    text-align:center;padding:48px 20px 32px;
+    background:#ffffffcc;backdrop-filter:blur(6px);
+    box-shadow:0 2px 20px rgba(0,0,0,.05);
+  }
+  header h1{font-family:'DM Serif Display',serif;font-size:2.7rem;color:var(--brand)}
+  header img{width:60px;margin-left:10px;vertical-align:middle}
+  header p{color:#666;font-size:.95rem;margin-top:6px}
+
+  /* ─ card grid ─ */
+  .cards{
+    max-width:1200px;margin:auto;padding:40px 20px;
+    display:flex;flex-wrap:wrap;justify-content:center;gap:1.5rem;
+  }
+  .card-box{
+    background:var(--soft);
+    width:230px;flex:1;
+    padding:26px;border-radius:18px;
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
+    text-align:center;cursor:pointer;
+    transition:.35s cubic-bezier(.25,.8,.25,1);
+  }
+  .card-box:hover{transform:translateY(-6px) scale(1.03);box-shadow:0 12px 30px rgba(0,0,0,.12)}
+  .card-box h3{font-family:'DM Serif Display',serif;margin-bottom:6px;font-size:1.35rem}
+  .card-box p{font-size:.94rem;color:var(--sub)}
+
+  /* ─ section blocks ─ */
+  section.service{
+    scroll-margin-top:100px;  /* offset for header */
+    max-width:800px;margin:50px auto;padding:32px;
+    background:var(--soft);border-radius:18px;
+    box-shadow:0 6px 20px rgba(0,0,0,.08);
+  }
+  section.service h2{font-family:'DM Serif Display',serif;font-size:1.9rem;margin-bottom:12px;color:var(--brand)}
+  section.service p{font-size:1.05rem;line-height:1.7;color:var(--sub)}
+  .dm-btn{
+    display:inline-block;margin-top:22px;background:var(--brand);color:#fff;
+    padding:12px 24px;border-radius:10px;text-decoration:none;font-weight:bold;transition:.3s}
+  .dm-btn:hover{background:#2b92c5}
+
+  /* ─ footer ─ */
+  footer{text-align:center;padding:26px;background:#d0ecf9;font-size:.9rem;color:#333;margin-top:60px}
+
+  /* ─ mobile ─ */
+  @media(max-width:600px){
+    header h1{font-size:2rem}
+    .card-box{width:90%;max-width:none}
+  }
+</style>
+</head>
+<body>
+
+<!-- ───────── HEADER ───────── -->
+<header>
+  <h1>Soul Serenade <img src="e5f27141-0632-434c-987f-c47d25657713-Picsart-BackgroundChanger.jpg" alt="Logo placeholder"></h1>
+  <p>Private Presence • Delhi NCR✨💓</p>
+</header>
+
+<!-- ───────── SERVICE CARDS ───────── -->
+<div class="cards">
+  <div class="card-box" onclick="location.href='#companion'">
+    <h3>Emotional Companion</h3><p>Warm listening presence.</p></div>
+  <div class="card-box" onclick="location.href='#caretaking'">
+    <h3>Caretaking Presence</h3><p>Company for elders & adults.</p></div>
+  <div class="card-box" onclick="location.href='#walks'">
+    <h3>Private Walks / Talks</h3><p>Stroll & share quietly.</p></div>
+  <div class="card-box" onclick="location.href='#quiet'">
+    <h3>Quiet Company</h3><p>Café, bookstore, drive.</p></div>
+  <div class="card-box" onclick="location.href='#rentasoul'">
+    <h3>Rent‑a‑Soul</h3><p>Hire presence by the hour.</p></div>
+  <div class="card-box" onclick="location.href='#mood'">
+    <h3>Aesthetic Mood Posts</h3><p>Feel the vibe, visually.</p></div>
+  <div class="card-box" onclick="location.href='#clarify'">
+    <h3>What We Are / Not</h3><p>Boundaries & ethics.</p></div>
+</div>
+
+<!-- ───────── SERVICE SECTIONS ───────── -->
+<section id="companion" class="service">
+  <h2>Emotional Companion</h2>
+  <p>Feeling overwhelmed or unheard? Our companions offer a gentle presence wherever you are in Delhi NCR. Talk, vent, or share silence — without judgment.</p>
+  <a class="dm-btn" href="https://www.instagram.com/_soul_ncr_?igsh=MTZ1eGJlb3FjdmZvMw==" target="_blank">DM to Book 💌</a>
+</section>
+
+<section id="caretaking" class="service">
+  <h2>Caretaking Presence</h2>
+  <p>Mature, respectful company for elders or adults needing attentive presence — reading, chatting, or simply sharing time.</p>
+  <a class="dm-btn" href="https://www.instagram.com/_soul_ncr_?igsh=MTZ1eGJlb3FjdmZvMw==" target="_blank">DM to Book 💌</a>
+</section>
+
+<section id="walks" class="service">
+  <h2>Private Walks & Talks</h2>
+  <p>Walk through Lodhi Garden or silent streets. Speak your mind, or stroll in comforting quiet—your choice, your pace.</p>
+  <a class="dm-btn" href="https://www.instagram.com/_soul_ncr_?igsh=MTZ1eGJlb3FjdmZvMw==" target="_blank">DM to Book 💌</a>
+</section>
+
+<section id="quiet" class="service">
+  <h2>Quiet Company</h2>
+  <p>Sit in a café, browse a bookstore, or take a calm night drive. Companionable silence or light conversation—no pressure at all.</p>
+  <a class="dm-btn" href="https://www.instagram.com/_soul_ncr_?igsh=MTZ1eGJlb3FjdmZvMw==" target="_blank">DM to Book 💌</a>
+</section>
+
+<section id="rentasoul" class="service">
+  <h2>Rent‑a‑Soul</h2>
+  <p>Hire a soulful companion for a few hours. Not for tasks — just genuine emotional presence, tailored to your momentary need.</p>
+  <a class="dm-btn" href="https://www.instagram.com/_soul_ncr_?igsh=MTZ1eGJlb3FjdmZvMw==" target="_blank">DM to Book 💌</a>
+</section>
+
+<section id="mood" class="service">
+  <h2>Aesthetic Mood Posts</h2>
+  <p>Browse curated visuals—rainy windows, candlelight, quiet balconies—that match feelings you can’t easily express in words.</p>
+  <a class="dm-btn" href="https://www.instagram.com/_soul_ncr_?igsh=MTZ1eGJlb3FjdmZvMw==" target="_blank">See on Instagram</a>
+</section>
+
+<section id="clarify" class="service">
+  <h2>What We Are / What We’re Not</h2>
+  <p><strong>We are:</strong> emotional companions, quiet listeners, respectful presence.<br>
+     <strong>We are not:</strong> escort services, therapy, or anything illegal. Boundaries and confidentiality come first.</p>
+  <a class="dm-btn" href="https://www.instagram.com/_soul_ncr_?igsh=MTZ1eGJlb3FjdmZvMw==" target="_blank">DM Questions</a>
+</section>
+
+<!-- ───────── FOOTER ───────── -->
+<footer>
+  Privacy First • No judgment • Your feelings are safe here. ❤️
+  <br>email at us : kire18540@gmail.com
+</footer>
+
+</body>
+</html>
